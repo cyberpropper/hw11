@@ -8,9 +8,10 @@ public class Main {
 
         book2.setPublicationYear(1995);
 
-        System.out.println(book1.getTitle() + " - " + book1.getAuthor().getFirstName() + " " + book1.getAuthor().getLastName() + ", год " + book1.getPublicationYear());
-        System.out.println(book2.getTitle() + " - " + book2.getAuthor().getFirstName() + " " + book2.getAuthor().getLastName() + ", год " + book2.getPublicationYear());
+        System.out.println(book1);
+        System.out.println(book2);
     }
 }
+
 
 
